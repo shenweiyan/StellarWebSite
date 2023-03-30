@@ -1,0 +1,3 @@
+[submodule "themes/Stellar-Hugo-Theme"]
+	path = themes/Stellar-Hugo-Theme
+	url = https://github.com/shenweiyan/Stellar-Hugo-Theme.git
