@@ -9,13 +9,12 @@ markup:
   _merge: deep
 
 params:
-  author: Stellar
+  author: Steven
   avatar: /avatar.png
   logo: /logo.svg
 
   description:
-  - "subtitle"
-  - "subsubtitle"
+  - "Bio & IT 爱好者"
 
   notice:
   - "notice"
