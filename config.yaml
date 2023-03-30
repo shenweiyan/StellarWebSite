@@ -10,8 +10,8 @@ markup:
 
 params:
   author: Steven
-  avatar: /avatar.png
-  logo: /logo.svg
+  avatar: /logo.png
+  logo: /logo.png
 
   description:
   - "Bio & IT 爱好者"
@@ -20,7 +20,7 @@ params:
   - "个人主站点：[语雀](https://weiyan.cc)"
   - "本站使用 Hugo 搭建，移植了 [Hugo Stellar](https://github.com/Yharimium/hugo-stellar) 主题，并有所[改动](https://github.com/shenweiyan/Stellar-Hugo-Theme)"
 
-  copyright: "&copy; Powered by [ICS-Hugo-Theme](https://github.com/shenweiyan/ICS-Hugo-Theme) and  [Hugo](https://gohugo.io) | [Bio IT 爱好者](https://www.bioitee.com/) 2023 - 2023 | [粤ICP备16023717号](http://beian.miit.gov.cn/)"
+  copyright: "&copy; Powered by [Stellar-Hugo-Theme](https://github.com/shenweiyan/Stellar-Hugo-Theme) and  [Hugo](https://gohugo.io) | [Bio IT 爱好者](https://www.bioitee.com/) 2023 - 2023 | [粤ICP备16023717号](http://beian.miit.gov.cn/)"
 
   tencentUrl: true
   autoInvert: true
