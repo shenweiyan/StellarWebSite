@@ -30,12 +30,15 @@ params:
   - name: "语雀"
     url: "https://www.yuque.com/shenweiyan"
     icon: "fa-solid fa-crow"
+  - name: "微信公众号"
+    url: "https://www.bioitee.com/"
+    icon: "fa-brands fa-weixin"
+  - name: "导航"
+    url: "https://nav.bioitee.com/"
+    icon: "fa-solid fa-paperclip"
   - name: "GitHub"
     url: "https://github.com/shenweiyan"
     icon: "fa-brands fa-square-github"
-  - name: "微信公众号"
-    url: "https://space.bilibili.com/"
-    icon: "fa-brands fa-weixin"
 
 menus:
   main:
