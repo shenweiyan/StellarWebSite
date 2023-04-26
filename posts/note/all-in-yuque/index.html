@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>All in Yuque - Stellar Hugo Theme</title>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Steven">
+    <meta name="Robots" content="All">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="windows-Target" content="_top">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../../../logo.png" />
+    <link rel="alt" type="application/rss+xml" href=../../../index.xml title="Stellar Hugo Theme" />
+    <link rel="stylesheet" href=../../../_index.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /><script src="../../../modules/redirector.js"></script><link rel='dns-prefetch' href='https://cdn.staticfile.org'>
+    <link rel='preconnect' href='https://cdn.staticfile.org' crossorigin=''><link rel='stylesheet' href='https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.1.0/lxgwwenkaiscreen.css'><script src='https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js' ></script><script src='https://cdn.staticfile.org/mermaid/9.4.0/mermaid.js' ></script><link rel='stylesheet' href='../../../modules/fancybox.css'><script src='../../../modules/fancybox.umd.js' defer></script><script src='../../../modules/img.js' defer></script><script src='../../../modules/toc.js' defer></script><script src='../../../modules/codeblock.js' defer></script><script src='../../../modules/mathjax.js' defer></script><script src='https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js' defer></script><link rel="stylesheet" href=../../../autoinvert.css>
+<script>
+    mermaid.initialize({
+        securityLevel: 'loose',
+        themeVariables: {
+            fontFamily: 'Cera Round Pro',
+            fontSize: '85%'
+        }
+    });
+</script>
+</head>
+<body><div class="LBody">
+    <div class="Side"><header class="header">
+    <div class="info">
+        <a class="avatar" href="../../../">
+            <div class="bg shadow"></div>
+            <img class="bg rainbow" src="../../../img/rainbow64@3x.webp">
+            <img class="avatar" src="../../../logo.png">
+        </a>
+        <a class="title" href="../../../">
+            <p class="text site-title">Steven</p>
+            <p class="sub up">Bio &amp; IT 爱好者</p>
+            <p class="sub dw">欢迎关注个人语雀知识库</p>
+        </a>
+    </div>
+    <nav class="menu"><a class="nav-item active" href="../../../">博客</a><a class="nav-item " href="../../../docs/">文档</a><a class="nav-item " href="../../../search/">搜索</a><a class="nav-item " href="../../../about/">关于</a></nav>
+</header><div class="widgets"><div class="widget search"><div class="search-form">
+    <input type="text" class="search-input" id="side-search-input" placeholder="" AUTOCOMPLETE="off">
+    <img class="search-icon" src="../../../img/search.svg">
+    <script>
+        var $input = $('#side-search-input');
+        var section = window.location.pathname.substring(0,6) == "/docs/" ? "docs" : "posts";
+        $input.attr('placeholder', section == "docs" ? "文档搜索" : "博客搜索")
+        $input.keydown( (e) => {
+            if (e.keyCode == 13) {
+                window.open(`/search/?sec=${section}?key=${$input.val()}`)
+            }
+        });
+    </script>
+</div></div><div class="widget toc"></div></div>
+
+<footer class="footer">
+    <div class="social"><a class="box" href="https://www.yuque.com/shenweiyan" target="_blank">
+            
+	    <i class="fa-solid fa-crow fa-lg"></i>
+        </a><a class="box" href="https://www.bioitee.com/" target="_blank">
+            
+	    <i class="fa-brands fa-weixin fa-lg"></i>
+        </a><a class="box" href="https://nav.bioitee.com/" target="_blank">
+            
+	    <i class="fa-solid fa-paperclip fa-lg"></i>
+        </a><a class="box" href="https://github.com/shenweiyan" target="_blank">
+            
+	    <i class="fa-brands fa-square-github fa-lg"></i>
+        </a></div>
+</footer>
+</div>
+    <div class="Main"><div class="info mobile-only">
+    <a class="avatar" href="../../../">
+        <div class="bg shadow"></div>
+        <img class="bg rainbow" src="../../../img/rainbow64@3x.webp">
+        <img class="avatar" src="../../../logo.png">
+    </a>
+    <a class="title" href="../../../">
+        <p class="text site-title">Steven</p>
+        <p class="sub up">Bio &amp; IT 爱好者</p>
+        <p class="sub dw">欢迎关注个人语雀知识库</p>
+    </a>
+</div>
+<div class="mobile-only sidebar-button" onclick="sidebar_button_click()">
+    <img src="../../../img/menu.svg"></img>
+    <script>
+    sidebar_button_click = (e) => {
+        $(".Side")[0].classList.toggle("layout");
+        $(".sidebar-button")[0].classList.toggle("layout");
+    }
+    </script>
+</div><main class="content markdown">
+    <div class="params"><div class="tags"><a class="param" href="../../../tags/%e8%af%ad%e9%9b%80">语雀</a><a class="param" href="../../../tags/%e7%9f%a5%e8%af%86%e7%ae%a1%e7%90%86">知识管理</a></div><div class="meta">发布于 2023-02-07</div>
+    </div>
+    
+    <h1 class="title">All in Yuque</h1>
+    <span class="description">语雀是本人的博文笔记的唯一主力平台，欢迎大家关注 [语雀：史提芬先森的云端知识库](https://www.yuque.com/shenweiyan)。</span><blockquote>
+<p>📢本 文章同步自作者的<a class="md_link" href="https://www.yuque.com/shenweiyan/"  >语雀知识库<img class="icon" src="../../../img/link.svg" /></a>，请点击<a class="md_link" href="https://www.yuque.com/shenweiyan/mind/all-in-yuque"  >这里<img class="icon" src="../../../img/link.svg" /></a>阅读原文。</p>
+</blockquote>
+<p>语雀用了这么多年，有太多太多的东西保存在语雀了，这两天一直都在思考 All in Yuque 的这个问题。</p>
+<p>想先聊一下，为什么不再折腾个人的独立博客了。</p>
+<p>首先，独立博客的选择可以有很多，WordPress、Hexo、Jeykll、Hugo &hellip;&hellip;，每一次都是先被某一个主题（自己也在 <a class="md_link" href="https://www.yuque.com/shenweiyan/wow/qzt4ul?view=doc_embed"  >博客 | 那些好看有内涵的博客与模板<img class="icon" src="../../../img/link.svg" /></a> 里面搜集了一些）吸引住，费了九牛二虎之力搭建起来，更新一段时间文章；然后又被其他的主题或者框架吸引，接着继续去折腾；反反复复，中间耗费了大量的时间，累计沉淀的文档知识反而不多，有种丢了西瓜拣芝麻的感觉。</p>
+<p>其次，独立博客本身的限制。主要在于没法满足私有+分享的需求，大多独立博客的功能在于公开分享，私有文档的功能极其薄弱甚至根本没有。</p>
+<p>第三，基本上从 2018 年以来，个人的所有知识文档就转移到语雀了。曾几何时，受<a class="md_link" href="https://yihui.org/"  >谢益辉老师博客<img class="icon" src="../../../img/link.svg" /></a>的影响，自己也折腾了一个 <a class="md_link" href="https://github.com/shenweiyan/ICS-Hugo-Theme"  >ICS-Hugo-Theme<img class="icon" src="../../../img/link.svg" /></a> 的 Hugo主题，而基于这个主题的<a class="md_link" href="https://www.shumlab.com/"  >个人独立博客<img class="icon" src="../../../img/link.svg" /></a>现在基本变成存档的状态了，只是有空的时候会偶尔去折腾更新一下。</p>
+<p>第四，GitHub 上有一个<a class="md_link" href="https://github.com/timqian/chinese-independent-blogs"  >中文独立博客<img class="icon" src="../../../img/link.svg" /></a>列表的项目，很不错，也很佩服那些十年如一日更新的人——他们给我的一个启示就是专注积累和沉淀，主题框架还是相对次要的(不值得花太多时间去折腾)。</p>
+<p>也简单聊一下，为什么放弃了其他的一些如<strong>博客园</strong>、<strong>掘金</strong>之类的平台（CSDN 就算了，乌烟瘴气的）。</p>
+<p>这些平台很大的一个特色是社区氛围挺好，对于互联网搜索分享也有一定优势，但是对私有文档文档支持很差，这也是我放弃的主要原因；其次是编辑体验也一般。</p>
+<p>说到这里，顺便提一下博客园——个人加入博客园（<a class="md_link" href="https://www.cnblogs.com/shenweiyan/"  >https://www.cnblogs.com/shenweiyan/<img class="icon" src="../../../img/link.svg" /></a>）也已经有 8 年多，对博客园的写作氛围和几十年如一日纯粹无广告的态度相当赞赏，但私有文档的支持的确也基本等于零（也许是我没有找到正确的打开方式吧）。</p>
+<p>最后，回到今天的话题。</p>
+<p>All in Yuque 其实就目前来说是可以的，自己一直以来也基本上这么干了，只是还有些地方不够满意而已。</p>
+<p>例如，<strong>小记</strong>，中规中矩但贵在编辑器支持的样式多；眼馋 Flomo 的 UI 简洁和逻辑清晰，但人家不支持插入代码。</p>
+<p>例如，<strong>知识库</strong>，编辑体验已经很好了（虽然还有可以做得更好的细节，如 Web 端编辑同时展示左边大纲），但最大的遗憾还是互联网比较难搜索到语雀的内容（好像目前无能为力）。</p>
+<p>还要吐槽一下知识库文档的段落距离——跟行距相似度太高了，简直分辨不出来——看的好难受！空一行行距又太高——我好难😭</p>
+<p>例如，存量的<strong>话题知识库</strong>，极好的一个知识库类型，可惜不能按照标题名称排序（相当简单的一个小功能，却一拖再拖，未能上线）；嵌入语雀内容在话题知识库知识库中也不如人意，最起码渲染速度就有点让人抓狂了；还有最坑的一点，话题知识库不能插入本地视频！</p>
+<p>例如，<strong>逛逛</strong>，能看的东西好像太少了，也不能刷新换一批；另外还有一个感觉（不知道是不是我的错觉），就是语雀对于前端、设计、以及一些方法论的东西尤其看重，逛逛/推荐里面很多这些方面的文档内容，其他方向的内容极少。</p>
+</main><footer class="footer">
+    <br><br><hr>
+    <div class="sitemap"><div class="group">
+            <span class="title">博客</span><a class="link" href="../../../">所有文章</a><a class="link" href="../../../categories/">分类</a><a class="link" href="../../../tags/">标签</a><a class="link" href="../../../archives/">归档</a></div><div class="group">
+            <span class="title">文档</span><a class="link" href="../../../docs/">所有文档</a></div><div class="group">
+            <span class="title">搜索</span><a class="link" href="../../../search/?sec=posts">博客搜索</a><a class="link" href="../../../search/?sec=docs">文档搜索</a></div><div class="group">
+            <span class="title">关于</span><a class="link" href="../../../about/#about-hugo">About Hugo</a></div></div>
+</footer>
+</div>
+</div></body>
+</html>

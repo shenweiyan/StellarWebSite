@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>建站 on Stellar Hugo Theme</title>
+    <link>/categories/%E5%BB%BA%E7%AB%99/</link>
+    <description>Recent content in 建站 on Stellar Hugo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>/posts/hugo/hugo-template-primer/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hugo/hugo-template-primer/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>/posts/hugo/getting-started-with-hugo/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hugo/getting-started-with-hugo/</guid>
+      <description>Step 1. Install Hugo # Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs # Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:</description>
+    </item>
+    
+    <item>
+      <title>MathJax 支持</title>
+      <link>/posts/hugo/mathjax%E6%94%AF%E6%8C%81/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hugo/mathjax%E6%94%AF%E6%8C%81/</guid>
+      <description>Inline Math # Example$abc$ $e^{\pi i}=-1$ $\frac{3}{2}$$abc$ $e^{\pi i}=-1$ $\frac{3}{2}$ Display Math # Example$$ \sum_{i=1}^{n}\int_{0}^{\pi}\log_2{e^n} $$$$ \sum_{i=1}^{n}\int_{0}^{\pi}\log_2{e^n} $$ Using Latex Codeblock # ``` latex f(n)= \begin{cases} f(n-1)+f(n-2) &amp;amp; n \ge 3 \\ 1 &amp;amp; n=1,2 \end{cases} ``` $$f(n)= \begin{cases} f(n-1)&amp;#43;f(n-2) &amp;amp; n \ge 3 \\ 1 &amp;amp; n=1,2 \end{cases}$$</description>
+    </item>
+    
+    <item>
+      <title>博客和笔记的那些事情</title>
+      <link>/posts/note/2022-11-02-note-and-blog/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/note/2022-11-02-note-and-blog/</guid>
+      <description>这些年来笔记换的比较少——主要是从 2018 年以来，一直用语雀作为主力笔记懒得去折腾了。但是到了 2022 年，事情似乎出现了一些转变。 首先，是语雀的个人用户的话题知识库下线——并入了空间； 其次，语雀的问题反馈，由原来的公开可讨论转变成了类似私信一样的单向反馈； 第三，语雀 2022 年秋季知识库大会的会员收费风波！——语雀的定位改变为创作工具，而不在是内容社区，相应的新的付费策略，也会造成了免费用户无法继续用语雀作为自己的个人博客。这是最致命的一次信任危机。
+语雀个人版新定价的细则和思考 - 境同 语雀个人定价调整的致歉 - 玉伯 如何看待语雀付费策略？ - 知乎 虽然个人的语雀付费已经到了 2037 年，但是随着越来越多的文档托管在了语雀，不支持批量 md 导出的确让人心生忧虑。 几经考虑之下，在开始 Plan B 前先明确一下个人使用云端笔记无非基于几点考虑：
+同步方便，现在更加注重数据自己可控，最好笔记可以批量导出，或者直接本地保存； 同时支持私密、公开两种笔记模式； 支持 markdown 语法； 支持全文搜索； 最好支持 web 直接使用； &amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;.. 现在 Obsidian 进行探索中，强悍的搜索，丰富的插件，算是吸引我的一个方面；如果不是官方提供的同步和发布插件价格相对贵了一些，或许早就从语雀开始往 Obsidian 进行迁移了吧！ Obsidian 也是书本式的文章结构，这一点跟语雀是一致的，但界面的设计和逻辑要比语雀要好太多太多了，退一万步来说语雀甚至可以参考一下 Obsidian 的一些界面设计！
+Obsidian 结合一些插件使用，可谓事半功倍。 不得不说的一点体验。
+使用语雀这么多年，转战其他笔记软件真是一件费心又纠结的事情——语雀的写作体验很好但界面逻辑和 UI 经常变，OBS 总体很完美但学习成本高。
+作为知识沉淀和管理，更希望能做到开箱即用，免去各种折腾的时间让用者专注于文字的组织和写作，从这一点来说，或许可以再给语雀一点时间，如果依旧是失望和粗暴，再做 Plan B 迁移也来得及。
+还是选择继续回到语雀，且看它接下来一年的表现吧！</description>
+    </item>
+    
+  </channel>
+</rss>

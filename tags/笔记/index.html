@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>笔记 - Stellar Hugo Theme</title>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Steven">
+    <meta name="Robots" content="All">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="windows-Target" content="_top">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../../logo.png" />
+    <link rel="alt" type="application/rss+xml" href=../../index.xml title="Stellar Hugo Theme" />
+    <link rel="stylesheet" href=../../_index.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /><script src="../../modules/redirector.js"></script><link rel='dns-prefetch' href='https://cdn.staticfile.org'>
+    <link rel='preconnect' href='https://cdn.staticfile.org' crossorigin=''><link rel='stylesheet' href='https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.1.0/lxgwwenkaiscreen.css'><script src='https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js' ></script><script src='https://cdn.staticfile.org/mermaid/9.4.0/mermaid.js' ></script><link rel='stylesheet' href='../../modules/fancybox.css'><script src='../../modules/fancybox.umd.js' defer></script><script src='../../modules/img.js' defer></script><script src='../../modules/toc.js' defer></script><script src='../../modules/codeblock.js' defer></script><script src='../../modules/mathjax.js' defer></script><script src='https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js' defer></script><link rel="stylesheet" href=../../autoinvert.css>
+<script>
+    mermaid.initialize({
+        securityLevel: 'loose',
+        themeVariables: {
+            fontFamily: 'Cera Round Pro',
+            fontSize: '85%'
+        }
+    });
+</script>
+</head>
+<body><div class="LBody">
+    <div class="Side"><header class="header">
+    <div class="info">
+        <a class="avatar" href="../../">
+            <div class="bg shadow"></div>
+            <img class="bg rainbow" src="../../img/rainbow64@3x.webp">
+            <img class="avatar" src="../../logo.png">
+        </a>
+        <a class="title" href="../../">
+            <p class="text site-title">Steven</p>
+            <p class="sub up">Bio &amp; IT 爱好者</p>
+            <p class="sub dw">欢迎关注个人语雀知识库</p>
+        </a>
+    </div>
+    <nav class="menu"><a class="nav-item active" href="../../">博客</a><a class="nav-item " href="../../docs/">文档</a><a class="nav-item " href="../../search/">搜索</a><a class="nav-item " href="../../about/">关于</a></nav>
+</header><div class="widgets"><div class="widget search"><div class="search-form">
+    <input type="text" class="search-input" id="side-search-input" placeholder="" AUTOCOMPLETE="off">
+    <img class="search-icon" src="../../img/search.svg">
+    <script>
+        var $input = $('#side-search-input');
+        var section = window.location.pathname.substring(0,6) == "/docs/" ? "docs" : "posts";
+        $input.attr('placeholder', section == "docs" ? "文档搜索" : "博客搜索")
+        $input.keydown( (e) => {
+            if (e.keyCode == 13) {
+                window.open(`/search/?sec=${section}?key=${$input.val()}`)
+            }
+        });
+    </script>
+</div></div><div class="widget notice"><p class="title">公告</p>
+<div class="content markdown"><ul><li>个人主站点：<a class="md_link" href="https://weiyan.cc"  >语雀<img class="icon" src="../../img/link.svg" /></a></li><li>本站使用 Hugo 搭建，移植了 <a class="md_link" href="https://github.com/Yharimium/hugo-stellar"  >Hugo Stellar<img class="icon" src="../../img/link.svg" /></a> 主题，并有所<a class="md_link" href="https://github.com/shenweiyan/Stellar-Hugo-Theme"  >改动<img class="icon" src="../../img/link.svg" /></a></li></ul></div></div><div class="widget recent"><p class="title">最近更新</p>
+<div class="content"><a class="item" href="../../posts/hugo/basic-usage/">Basic usage</a><a class="item" href="../../posts/hugo/hugo-template-primer/">(Hu)go Template Primer</a><a class="item" href="../../posts/hugo/getting-started-with-hugo/">Getting Started with Hugo</a><a class="item" href="../../posts/hugo/mathjax%E6%94%AF%E6%8C%81/">MathJax 支持</a><a class="item" href="../../posts/hugo/%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81/">扩展语法支持</a></div></div></div>
+
+<footer class="footer">
+    <div class="social"><a class="box" href="https://www.yuque.com/shenweiyan" target="_blank">
+            
+	    <i class="fa-solid fa-crow fa-lg"></i>
+        </a><a class="box" href="https://www.bioitee.com/" target="_blank">
+            
+	    <i class="fa-brands fa-weixin fa-lg"></i>
+        </a><a class="box" href="https://nav.bioitee.com/" target="_blank">
+            
+	    <i class="fa-solid fa-paperclip fa-lg"></i>
+        </a><a class="box" href="https://github.com/shenweiyan" target="_blank">
+            
+	    <i class="fa-brands fa-square-github fa-lg"></i>
+        </a></div>
+</footer>
+</div>
+    <div class="Main"><div class="info mobile-only">
+    <a class="avatar" href="../../">
+        <div class="bg shadow"></div>
+        <img class="bg rainbow" src="../../img/rainbow64@3x.webp">
+        <img class="avatar" src="../../logo.png">
+    </a>
+    <a class="title" href="../../">
+        <p class="text site-title">Steven</p>
+        <p class="sub up">Bio &amp; IT 爱好者</p>
+        <p class="sub dw">欢迎关注个人语雀知识库</p>
+    </a>
+</div>
+<div class="mobile-only sidebar-button" onclick="sidebar_button_click()">
+    <img src="../../img/menu.svg"></img>
+    <script>
+    sidebar_button_click = (e) => {
+        $(".Side")[0].classList.toggle("layout");
+        $(".sidebar-button")[0].classList.toggle("layout");
+    }
+    </script>
+</div><div class="tabs">
+    <nav class="nav"><a class="tab " href="../../">所有文章</a><a class="tab " href="../../categories/">分类</a><a class="tab active" href="../../tags/">标签: 笔记</a><a class="tab " href="../../archives/">归档</a></nav>
+</div><div class="posts"><a class="post" href='../../posts/note/2022-11-02-note-and-blog/'><div class="card">
+        <h2 class="title">博客和笔记的那些事情</h2>
+        <div class="description">这些年来笔记换的比较少——主要是从 2018 年以来，一直用语雀作为主力笔记懒得去折腾了。但是到了 2022 年，事情似乎出现了一些转变。</div>
+        <div class="meta">发布于 2022-11-02</div></div>
+    </a></div><footer class="footer">
+    <br><br><hr>
+    <div class="sitemap"><div class="group">
+            <span class="title">博客</span><a class="link" href="../../">所有文章</a><a class="link" href="../../categories/">分类</a><a class="link" href="../../tags/">标签</a><a class="link" href="../../archives/">归档</a></div><div class="group">
+            <span class="title">文档</span><a class="link" href="../../docs/">所有文档</a></div><div class="group">
+            <span class="title">搜索</span><a class="link" href="../../search/?sec=posts">博客搜索</a><a class="link" href="../../search/?sec=docs">文档搜索</a></div><div class="group">
+            <span class="title">关于</span><a class="link" href="../../about/#about-hugo">About Hugo</a></div></div>
+</footer>
+</div>
+</div></body>
+</html>
