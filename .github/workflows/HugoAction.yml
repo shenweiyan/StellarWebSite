@@ -40,4 +40,4 @@ jobs:
           publish_branch: gh-pages	# 发布到哪个branch
           force_orphan: true
           full_commit_message: ${{ github.event.head_commit.message }}
-          cname: www.weiyan.cc
+          cname: s.weiyan.cc
